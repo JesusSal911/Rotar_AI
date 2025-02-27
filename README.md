@@ -14,3 +14,5 @@ asi quedaria en la web:
 ![image](https://github.com/user-attachments/assets/2614b2e0-bed0-499b-a8d2-ce1767c529cf)
 Usando Clip-Padth realizamos los recortes en los bordes de las imagenes:
 ![image](https://github.com/user-attachments/assets/5e8c5b7d-ec6a-4cef-b5ec-361f2e38632c)
+Añadimos las fotos de fondo en los botones:
+![image](https://github.com/user-attachments/assets/f73d3e26-7cf1-4463-8711-0cae94863546)
