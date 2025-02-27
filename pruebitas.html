@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imagen con Forma</title>
+
+    <style>
+      .imagen-personalizada {
+        width: 400px; /* Ajusta el tamaño según necesites */
+        height: auto;
+        clip-path: path(
+          "M 30 30 Q 30 0 60 0 L 315 0 Q 334 0 335 20 Q 335 36 349 35 Q 373 34 373 50 L 373 200 Q 373 235 347 233 L 255 233 Q 230 233 230 250 Q 230 266.5 200 267 L 60 300 C 100 232, 30 300, 30 240 Z"
+        );
+      }
+    </style>
+  </head>
+
+  <body>
+    <img
+      src="img/ultimate_01.jpg"
+      alt="Imagen Recortada"
+      class="imagen-personalizada"
+    />
+  </body>
+</html>
