@@ -22,3 +22,6 @@ Usando Clip-Padth realizamos los recortes en los bordes de las imagenes:
 
 Añadimos las fotos de fondo en los botones:
 ![image](https://github.com/user-attachments/assets/f73d3e26-7cf1-4463-8711-0cae94863546)
+
+Añadimos animaciones al Nav bar: 
+![image](https://github.com/user-attachments/assets/3dc61dd5-146f-42e8-a531-582ee8197b3d)
