@@ -1,4 +1,4 @@
-# Rotar_AI
+[Animación para el contenido.txt](https://github.com/user-attachments/files/19174952/Animacion.para.el.contenido.txt)# Rotar_AI
 Pagina Web de Rotar AI, usamos CSS y HTML
 aqui colocamos nuestro nav, creamos las listas y los botones respectivos: 
 ![image](https://github.com/user-attachments/assets/cd685092-c302-4c71-9233-9fd53ebeba05)
@@ -22,3 +22,6 @@ Usando Clip-Padth realizamos los recortes en los bordes de las imagenes:
 
 Añadimos las fotos de fondo en los botones:
 ![image](https://github.com/user-attachments/assets/f73d3e26-7cf1-4463-8711-0cae94863546)
+
+Agregamos Animaciones al Nav, utilizamos la propiedad (animation) para agregar el tiempo de la animacion y transform para señalar la direccion en donde se iniciara la animacíon: 
+![image](https://github.com/user-attachments/assets/5988021c-c020-47c1-b7af-d632b45eeb5f)
