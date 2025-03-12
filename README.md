@@ -28,5 +28,8 @@ Agregamos Animaciones al Nav, utilizamos la propiedad (animation) para agregar e
 
 Implementamos el contenido Take y Join, asi finalizando la incorporacíon de todos los contenidos que se muestran en la plantilla:
 ![image](https://github.com/user-attachments/assets/afdb3249-685d-4055-b483-686ea09910ea)
-![image](https://github.com/user-attachments/assets/38aa3b12-4070-4afc-93f2-f9b1ddfd2f03)
+![image](https://github.com/user-attachments/assets/4c18c81d-ce7b-4774-aafa-cbd53be24069)
 
+Añadimos Animaciones al contenido The Ultimate donde cada div tendra una animacion, incluyendo el titulo:
+
+![image](https://github.com/user-attachments/assets/4001ff8f-e79e-4bb3-a070-85d965575956)
