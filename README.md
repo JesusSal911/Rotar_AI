@@ -36,3 +36,8 @@ Implementamos el contenido Take y Join, asi finalizando la incorporacíon de tod
 Añadimos Animaciones al contenido The Ultimate donde cada div tendra una animacion, incluyendo el titulo:
 
 ![image](https://github.com/user-attachments/assets/4001ff8f-e79e-4bb3-a070-85d965575956)
+
+Agregamos un boton para cambiar el idioma a español: 
+
+![image](https://github.com/user-attachments/assets/39c94075-5b4a-484b-9fb3-3003332e6400)
+
