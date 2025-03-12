@@ -25,3 +25,8 @@ Añadimos las fotos de fondo en los botones:
 
 Agregamos Animaciones al Nav, utilizamos la propiedad (animation) para agregar el tiempo de la animacion y transform para señalar la direccion en donde se iniciara la animacíon: 
 ![image](https://github.com/user-attachments/assets/5988021c-c020-47c1-b7af-d632b45eeb5f)
+
+Implementamos el contenido Take y Join, asi finalizando la incorporacíon de todos los contenidos que se muestran en la plantilla:
+![image](https://github.com/user-attachments/assets/afdb3249-685d-4055-b483-686ea09910ea)
+![image](https://github.com/user-attachments/assets/38aa3b12-4070-4afc-93f2-f9b1ddfd2f03)
+
