@@ -41,3 +41,10 @@ Agregamos un boton para cambiar el idioma a español:
 
 ![image](https://github.com/user-attachments/assets/39c94075-5b4a-484b-9fb3-3003332e6400)
 
+Incluimos un Chatbot: 
+
+![image](https://github.com/user-attachments/assets/a907b95d-8c75-4084-b498-1e5c2573a052)
+
+Aqui tenemos el resultado: 
+
+![image](https://github.com/user-attachments/assets/35b8aa2a-b191-4d13-9ce5-59e6baca09c3)
