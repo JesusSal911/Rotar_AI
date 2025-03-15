@@ -64,54 +64,29 @@ a {
   width: 700px;
 }
 /** NAVEGACION **/
-.contenedor-navegacion {
+/** NAVEGACION **/
+
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 85px;
-  padding: 5px 4%;
+  padding: 10px 20px;
+  background-color: #fff;
 }
-.logo-navegacion {
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 70px;
+  margin: 0;
+  padding: 0;
+}
+nav li {
   display: flex;
 }
-.logo {
-  height: 5rem;
-}
-.nav-principal ul li {
-  display: inline-block;
-  padding: 0 2rem;
-}
-.nav-principal ul li a {
-  font-size: 17.5px;
-  font-weight: 500;
-}
-.button-navegacion {
-  display: flex;
-}
-.button-cps {
-  color: #050505;
-  background-color: transparent;
-  font-size: 16px;
-  font-weight: 550;
-  padding: 1rem;
-  border: none; /*elimina el border de los input en el formulario*/
-}
-.button-select {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-.checkdiv {
-  display: none;
-}
-.checkbtn {
-  font-size: 30px;
-  color: #000000;
-  cursor: pointer;
-  display: none;
-}
-#checkbox {
-  display: none;
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
 }
 .btn {
   background-color: #03ff81;
@@ -124,35 +99,149 @@ a {
   border: none; /*elimina el border de los input en el formulario*/
   border-radius: 26px;
 }
-.btn:hover {
+#open-sidebar-button {
+  display: none;
+  background: none;
+  border: none;
+  padding: 1em;
+  margin-left: auto;
   cursor: pointer;
-  background-color: #000000;
-  color: #ffffff;
 }
-/* Botones dentro de la imagen */
 
-.button-float {
-  display: flex;
-  position: absolute;
-  margin: 30px;
+#close-sidebar-button {
+  display: none;
+  background: none;
+  border: none;
+  padding: 1em;
+  cursor: pointer;
 }
-.button-button {
-  background-color: #fff;
+#overlay {
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  inset: 0;
+  z-index: 9;
+  display: none;
+}
+/* Responsive: Mostrar ícono del menú en pantallas pequeñas */
+@media screen and (max-width: 865px) {
+  #open-sidebar-button,
+  #close-sidebar-button {
+    display: block;
+  }
+
+  nav {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    width: min(15em, 100%);
+    z-index: 10;
+    border-left: 1px solid #ccf0d4;
+    transition: right 300ms ease-out;
+    background-color: #ccf0d4;
+  }
+
+  nav.show {
+    right: 0;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    padding: 20px 20px 70px 20px;
+  }
+
+  nav.show ~ #overlay {
+    display: block;
+  }
+
+  nav ul {
+    width: 100%;
+    flex-direction: column;
+    padding-bottom: 100%;
+  }
+
+  nav a {
+    width: 100%;
+    padding-left: 0.2rem;
+  }
+  .button-bloque {
+    display: flex;
+    flex-direction: column;
+  }
+  logo-bloque {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+/* Estilos para los botones */
+.button-cps,
+.button-select {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 35px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.button-cps {
+  background-color: transparent;
+  color: #333;
+}
+.bloque {
   display: flex;
-  gap: 6px;
-  justify-content: center;
+}
+.button-select {
+  display: flex;
   align-items: center;
-  font-size: 22px;
-  font-weight: 500;
-  border-radius: 3rem;
-  border: 1px;
-  height: 40px;
-  padding: 30px;
+  gap: 10px;
 }
-.posicion {
-  margin: 20px 0 0 0;
+/** Animación para revelar los elementos **/
+/* Ocultar elementos inicialmente */
+.logo-bloque,
+nav ul li,
+.button-bloque {
+  opacity: 0;
+  transform: translateY(50px); /* Desplazado hacia abajo */
 }
 
+/* Animación para revelar los elementos */
+@keyframes slideInFromBottom {
+  from {
+    opacity: 0;
+    transform: translateY(50px); /* Comienza 50px más abajo */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0); /* Termina en su posición original */
+  }
+}
+
+/* Aplicar animación con retrasos */
+.logo-bloque {
+  animation: slideInFromBottom 0.5s ease-out 0.2s forwards;
+}
+
+nav ul li:nth-child(1) {
+  animation: slideInFromBottom 0.5s ease-out 0.4s forwards;
+}
+
+nav ul li:nth-child(2) {
+  animation: slideInFromBottom 0.5s ease-out 0.6s forwards;
+}
+
+nav ul li:nth-child(3) {
+  animation: slideInFromBottom 0.5s ease-out 0.8s forwards;
+}
+
+nav ul li:nth-child(4) {
+  animation: slideInFromBottom 0.5s ease-out 1s forwards;
+}
+
+.button-bloque {
+  animation: slideInFromBottom 0.5s ease-out 1.2s forwards;
+}
+/*Fin de la Navegacíon*/
 /* Imagen en el dashboard */
 .clase {
   background-image: url(../img/ultimate_01.jpg);
