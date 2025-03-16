@@ -1628,7 +1628,10 @@ circle:nth-child(2) {
 .footer-grid {
   display: flex;
   flex-wrap: wrap;
-  margin: 55px 0 0px 0;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 100px;
+  margin-top: 55px;
 }
 .footer-flex {
   display: flex;
@@ -1646,7 +1649,8 @@ circle:nth-child(2) {
   font-size: 23px;
 }
 .footer-menu-ai {
-  margin-left: 35rem;
+  display: flex;
+  flex-direction: column;
   width: 520px;
 }
 .footer-menu-ai h2 {
@@ -1668,6 +1672,10 @@ circle:nth-child(2) {
 /*botones del footer*/
 .footer-button {
   display: flex;
+  gap: 50px;
+}
+.footer-button-one {
+  display: flex;
   gap: 20px;
 }
 .button-white {
@@ -1677,19 +1685,37 @@ circle:nth-child(2) {
   border: #fff 1px solid;
   padding: 10px 18px;
   font-size: 18px;
+  transition: 0.5s;
+}
+.button-white:hover {
+  background-color: #fff;
+  color: #000000;
+}
+.footer-button-two {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-button-two button:hover {
+  background-color: #fff;
+  color: #000000;
 }
 .button-lange {
   background-color: #000000;
   color: #fff;
   border-radius: 40px;
   border: #fff 1px solid;
-  padding: 10px 504px;
+  width: 100%;
+  padding: 10px 0;
   font-size: 18px;
   display: flex;
   gap: 15px;
   justify-content: center;
   align-items: center;
+  transition: 0.5s;
 }
+
 .button-lange img {
   width: 30px;
   height: 30px;
