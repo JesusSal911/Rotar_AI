@@ -17,7 +17,7 @@ function cambiarIdioma(idioma) {
         });
 
         localStorage.setItem("idioma", "en");
-        flagIcon.src = "/Rotar_AI-main/img/es.png"; // Icono de español
+        flagIcon.src = "img/es copy.png"; // Icono de español
     } else {
         fetch(`/Rotar_AI-main/language/es.json`)
             .then(res => res.json())
@@ -35,7 +35,7 @@ function cambiarIdioma(idioma) {
                 });
 
                 localStorage.setItem("idioma", "es");
-                flagIcon.src = "Rotar_AI-main/img/en.png"; // Icono de inglés
+                flagIcon.src = "img/en.jpg"; // Icono de inglés
             })
             .catch(error => console.error("Error cargando el JSON:", error));
     }
