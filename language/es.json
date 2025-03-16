@@ -1,0 +1,158 @@
+{
+    "header": {
+        "product": "Producto",
+        "solutions": "Soluciones",
+        "resources": "Recursos",
+        "pricing": "Precios",
+        "login": "Acceso",
+        "book": "Solicitar prueba" 
+    },
+
+    "section1": {
+        "title1": "La última IA para servicio al cliente",
+
+        "paragraph1": "Adopte la tecnología de chatbot de Al en una herramienta de comunicación compatible con GPT-4 para ayudar a sus clientes, empoderar a su equipo y reducir su carga de trabajo.",
+
+        "caption1": "Guía: Manual del tutorial de Rotor AI",
+
+        "paragraph2": "Todo lo que necesitas saber sobre los primeros pasos en los chatbots.",
+
+        "article": "Leer el artículo",
+
+        "button1": "Ver tutorial",
+
+        "paragraph3": "Las grandes empresas utilizan Rotor AI para sus servicios",
+
+        "caption2": "Servicios al cliente impulsados ​​por IA"
+    },
+
+    "section2": {
+        "title1": "Ofrecer una experiencia de cliente de alta calidad",
+
+        "paragraph1": "Adopte la tecnología de chatbot de Al en una herramienta de comunicación compatible con GPT-4 para ayudar a sus clientes, empoderar a su equipo y reducir su carga de trabajo.",
+
+        "caption1": "Automatice su flujo de trabajo con nuestras integraciones",
+
+        "paragraph2": "Conecte Rotar Al con sus herramientas de servicio al cliente, ventas, marketing y reclutamiento utilizando nuestra API fácil de usar, webhooks o integración con Zapier.",
+
+        "paragraph3": "He olvidado mi contraseña",
+
+        "paragraph4": "No te preocupes, todos hemos estado en una situación triste como esa. Para restablecer tu contraseña, ve a la página de inicio de sesión y haz clic en ¿Olvidaste tu contraseña? Luego, ingresa la dirección de correo electrónico y síguela.",
+
+        "paragraph5": "Aumenta las conversaciones en un 96% con Al",
+
+        "paragraph6": "Nuestros chatbots y herramientas de automatización impulsados ​​por IA están aquí para ayudar.",
+
+        "caption2": "Centraliza tu comunicación",
+
+        "paragraph7": "Responde fácilmente a los chats de todos tus canales en una sola descripción general.",
+
+        "caption3": "Siempre accesible con nuestro chat en vivo.",
+
+        "paragraph8": "Mejore la comunicación con el chat en vivo en tiempo real.",
+
+        "caption4": "CONVERSACIÓN EMPLEADO",
+
+        "caption5": "Obtenga información valiosa de su audiencia",
+
+        "paragraph9": "Las estadísticas proporcionan información valiosa sobre cómo los clientes interactúan con Rotar IA."
+    },
+
+    "section3": {
+        "paragraph1": "A lo largo de todo el recorrido de compra de su cliente, Rotar Al le permite deleitarlo en cada paso del camino, desde su primera visita hasta la compra final.",
+
+        "button1": "Empezar",
+
+        "title1": "Redefiniendo las conversaciones y mejorando la experiencia del usuario",
+
+        "caption1": "Comprometer",
+
+        "paragraph2": "Comuníquese con los visitantes de manera proactiva mediante saludos personalizados de chatbot. Convierta las visitas al sitio web en oportunidades de venta.",
+
+        "caption2": "Nutrir",
+
+        "paragraph3": "Guíe a los clientes hacia una venta a través de compras recomendadas y ofertas personalizadas.",
+
+        "caption3": "Calificar",
+
+        "paragraph4": "Genere y califique prospectos automáticamente. Transfiera prospectos con alta intención de compra a sus representantes de ventas en tiempo real para acortar el ciclo de ventas.",
+
+        "article1": "En línea",
+
+        "paragraph5": "No te preocupes, todos hemos estado en una situación triste como esa. Para restablecer tu contraseña, ve a la página de inicio de sesión y haz clic en ¿Olvidaste tu contraseña? Luego, ingresa la dirección de correo electrónico y síguela.",
+
+        "solution": "Soluciones",
+        "services": "Servicios",
+        "call": "Reservar una llamada",
+        "complain": "Quejarse"
+    },
+
+    "section4": {
+        "title1": "Utilice <span>plantillas</span> para comenzar su proyecto",
+
+        "1": "CARTA UNO",
+        "paragraph1": "Genial, me alegro de poder ayudarte a encontrar el plan adecuado para ti. ¿Qué buscas hacer con Rotor AI?",
+
+        "paragraph2": "Obtenga más clientes en mi página web",
+
+        "caption1": "Chatbot para marketing",
+
+        "paragraph3": "Proporcionar recomendaciones y procesar transacciones en un chat.",
+
+        "button1": "Pruebe plantillas gratis",
+
+        "2": "CARTA DOS",
+        "paragraph4": "¡Estás calificado para la siguiente ronda de entrevistas, Álvarez! Por favor, infórmanos de tu disponibilidad.",
+
+        "paragraph5": "En cualquier momento entre las 2 y las 5 p. m. mañana",
+
+        "caption2": "Chatbot para RRHH",
+
+        "paragraph6": "Encuentra talento e interactúa con candidatos de forma innovadora"
+    },
+
+    "section5": {
+
+        "paragraph1": "Únase al creciente número de empresas y compañías que han experimentado el impacto transformador de nuestros servicios de chatbot.",
+
+        "title1" : "Lo que las empresas de primer nivel dicen de nuestro producto",
+
+        "paragraph2": "Fundador de la tienda ERC Music Market",
+
+        "button1": "Testimonio del cliente",
+
+        "paragraph3": "Me sorprendió el nivel de asistencia que recibí del chatbot de AL proporcionado por ROTAR IA. Comprendió rápidamente mis preguntas y brindó respuestas precisas y útiles.",
+
+        "button2": "Ver más testimonios"
+    },
+
+    "section6": {
+        "title1": "Tome el control de su productividad con un chatbot GPT-4 ahora",
+
+        "paragraph1": "Transforme su servicio de atención al cliente con la solución de chatbot de Rotar basada en AL y GPT-4. Pruébela gratis ahora.",
+
+        "button1": "Contáctanos"
+    },
+
+    "footer": {
+
+        "title1": "Compañía",
+        "caption1": "Acerca de Rotar Al",
+        "caption2": "Precios",
+        "caption3": "Manifestación",
+
+        "title2": "Recursos",
+        "caption4": "Blog",
+        "caption5": "Eventos",
+        "caption6": "Biblioteca de herramientas",
+
+        "title3": "Legal",
+        "caption7": "Condiciones de uso",
+        "caption8": "política de privacidad",
+
+        "paragraph1": "Estamos a la vanguardia del desarrollo de chatbots AL, revolucionando la forma en que las empresas interactúan con sus clientes.",
+
+        "button1": "Rotar IA. Todos los derechos reservados"
+    }
+
+}
