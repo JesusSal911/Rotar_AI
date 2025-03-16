@@ -19,7 +19,7 @@ function cambiarIdioma(idioma) {
         localStorage.setItem("idioma", "en");
         flagIcon.src = "img/es copy.png"; // Icono de español
     } else {
-        fetch(`language/es.json`)
+        fetch(`Rotar_Al/language/es.json`)
             .then(res => res.json())
             .then(data => {
                 textsToChange.forEach((el) => { 
