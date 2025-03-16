@@ -1190,26 +1190,106 @@ circle:nth-child(2) {
   padding: 17px 85px;
   font-size: 23px;
 }
-/** Container Top**/
+/** Contenido Join **/
 .container-top {
   background-color: #fff;
-  margin: 30px 50px;
+  margin: 50px 50px;
   height: 1180.35px;
   width: 2014.44px;
   background-image: url("../img/fondo.svg");
-
   clip-path: path(
-    "M 960 1180.35 Q 910 1180.35 910 1121.332 V 472.14 Q 910 413.122 860 413.122 H 50 Q 0 413.122 0 354.105 V 59.017 Q 0 0 50 0 H 1200 Q 1284.44 0 1284.44 59.017 V 236.07 Q 1284.44 295.087 1390 295.087 H 1964.44 Q 2014.44 295.087 2014.44 354.105 V 1121.332 Q 2014.44 1180.35 1964.44 1180.35 H 960 Z"
+    "M 900 1180.35 Q 850 1180.35 850 1121.332 V 472.14 Q 850 413 810 413 H 50 Q 0 413 0 354.105 V 59.017 Q 0 0 50 0 H 1200 Q 1284.44 0 1284.44 59.017 V 236.07 Q 1284.44 295.087 1390 295.087 H 1964.44 Q 2014.44 295.087 2014.44 354.105 V 1121.332 Q 2014.44 1180.35 1964.44 1180.35 H 960 Z"
   );
 }
 .clip-path-messi {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
   background-image: url(../img/joven\ 1.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100%;
+  background-position-x: 0px;
+  background-position-y: -130px;
+  margin: -770px 0 0 50px;
+  width: 800px;
+  height: 720px;
+  clip-path: path(
+    "M 44.44 720 Q 0 720 0 670 V150 Q 0 100 44.44 100 Q 88.89 100 88.89 50 Q 88.89 0 133.33 0 H755.56 Q 800 0 800 50 V520 Q 800 570 755.56 570 H666.67 Q 622.22 570 622.22 620 V670 Q 622.22 720 577.78 720"
+  );
+}
+.contenido-h3-p {
+  margin: 0 0 20px 30px;
+  color: #fff;
+}
+.contenido-h3-p h3 {
+  font-size: 40px;
+}
+.contenido-h3-p p {
+  font-size: 25px;
+}
+.clip-path-Was {
   position: absolute;
-  margin: -750px 0 0 170px;
-  width: 900px;
-  height: 700px;
+  margin: -715px 0 0 940px;
+  background-position-x: 0px;
+  background-position-y: -130px;
+  background-color: #00ff80;
+  width: 1085px;
+  height: 500px;
+  clip-path: path(
+    "M 54.25 500 Q 0 500 0 450 V35 Q 0 0 38.025 0 H434 Q 472.975 0 472.975 35 Q 472.975 70 509.95 70 H1031.75 Q 1085 70 1085 120 V420 Q 1085 470 1031.75 470 H651 Q 635.825 470 635.825 485 Q 635.825 500 619.65 500"
+  );
+}
+.clip-path-Was h3 {
+  margin: 50px 120px 0px 30px;
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: 500;
+}
+.button {
+  position: absolute;
+  margin: -100px 0 0 1000px;
+  display: flex;
+  gap: 650px;
+}
+.button-client {
+  border-radius: 35px;
+  border: #000000 1px solid;
+  background-color: #00ff80;
+  padding: 10px 20px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.fa-quote-left {
+  background-color: #000000;
+  color: #fff;
+  border: #000000 8px solid;
+  border-radius: 50%;
+}
+.linea-black {
+  background-color: #c9c9c9;
+  width: 1085px;
+  height: 1px;
+  position: absolute;
+  margin: -150px 0 0 940px;
+}
+.button-cuarto {
+  background-color: #fff;
+  border: #000000 1px solid;
+  border-radius: 35px;
+  padding: 17px 25px;
+  font-size: 20px;
+}
+.button-more {
+  display: flex;
+  gap: 20px;
+  background-color: #000000;
+  color: #fff;
+  border: #000000 1px solid;
+  border-radius: 35px;
+  padding: 17px 25px;
+  font-size: 20px;
 }
 .top-container {
   position: absolute;
@@ -1219,11 +1299,18 @@ circle:nth-child(2) {
   font-size: 30px;
   line-height: 45px;
 }
+
+.container-what-top h2 {
+  animation: slideInFromTop 0.5s ease-out forwards;
+}
 .container-what-top-flex {
   display: flex;
   padding-top: 40px;
   margin-left: 60px;
   margin-right: 700px;
+  opacity: 0;
+  transform: translateX(-50px);
+  animation: slideInFromLeft 0.8s ease-out forwards;
 }
 .imagen-template-two {
   background-image: url(../img/card\ 2.jpg);
