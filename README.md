@@ -1,50 +1,80 @@
-# Rotar_AI
-Pagina Web de Rotar AI, usamos CSS y HTML
+# Rotar AI
 
-Puedes visitarnos desde aqui: https://jesussal911.github.io/Rotar_AI/
+## Enlace al Sitio Web
 
-aqui colocamos nuestro nav, creamos las listas y los botones respectivos: 
-![image](https://github.com/user-attachments/assets/cd685092-c302-4c71-9233-9fd53ebeba05)
+Puedes visitar la página web en el siguiente enlace: https://jesussal911.github.io/Rotar_AI/
 
-Aqui esta el css:
-![image](https://github.com/user-attachments/assets/9ef93f33-5330-46fd-9fa4-e71481b1cc0a)
+# MAYOR RETO
+✏️ Asegurar el diseño responsivo y la traducción con adaptación de espacio. En el caso de la traducción debe ajustarse al espacio disponible al cambiar de idioma, buscando la mayor cercanía con el texto original.
+![image](https://github.com/user-attachments/assets/0fd06397-b239-42be-830a-9ec85c68b9ef)
 
-En la web quedo asi: 
-![image](https://github.com/user-attachments/assets/fc459f4b-deb5-4574-8de0-2d93c08f3865)
 
-Luego creamos la primera parte del dashboard, colocamos el display:flex; para separar en dos los contenidos:
-![image](https://github.com/user-attachments/assets/62032f78-8499-4939-9b4e-62827dd485dc)
+## Tecnologías Utilizadas
 
-Eel css:
-![image](https://github.com/user-attachments/assets/2966c313-9462-419e-ac10-dbd857dcb4aa)
+- **HTML5**: Estructura y contenido de la página.
+- **CSS3**: Estilos y diseño visual.
+- **JavaScript**: Funcionalidades interactivas y dinámicas.
 
-asi quedaria en la web:
-![image](https://github.com/user-attachments/assets/2614b2e0-bed0-499b-a8d2-ce1767c529cf)
-Usando Clip-Padth realizamos los recortes en los bordes de las imagenes:
-![image](https://github.com/user-attachments/assets/5e8c5b7d-ec6a-4cef-b5ec-361f2e38632c)
+## Estructura del Proyecto
 
-Añadimos las fotos de fondo en los botones:
-![image](https://github.com/user-attachments/assets/f73d3e26-7cf1-4463-8711-0cae94863546)
+El proyecto se organiza de la siguiente manera:
 
-Agregamos Animaciones al Nav, utilizamos la propiedad (animation) para agregar el tiempo de la animacion y transform para señalar la direccion en donde se iniciara la animacíon: 
-![image](https://github.com/user-attachments/assets/5988021c-c020-47c1-b7af-d632b45eeb5f)
+```
+Rotar_AI/
+│
+├── css/
+│   └── estilos.css
+│
+├── img/
+│   └── molecula.png
+│
+├── js/
+│   └── main.js
+│
+├── language/
+│   └── es.json
+│
+├── index.html
+└── README.md
+```
 
-Implementamos el contenido Take y Join, asi finalizando la incorporacíon de todos los contenidos que se muestran en la plantilla:
+## Proceso de Desarrollo
+
+1. **Diseño del Layout**: Se definió una estructura de navegación clara con un menú interactivo y secciones destacadas.
+
+   ```html
+   <nav>
+       <ul>
+           <li><a href="#inicio">Inicio</a></li>
+           <li><a href="#caracteristicas">Características</a></li>
+           <li><a href="#contacto">Contacto</a></li>
+       </ul>
+   </nav>
+   ```
+
+2. **Estilizado con CSS**: Se aplicaron estilos modernos, utilizando propiedades como `display: flex` para el diseño de las secciones y `clip-path` para formas personalizadas.
+
+   ```css
+   .seccion {
+       display: flex;
+       background-color: #efefef;
+       border-radius: 2rem;
+       clip-path: path("M 63.33 370 Q 0 370 0 308.33 V 63.33 Q 0 0 63.33 0 H 610 Q 650 0 650 24.67 Q 650 51.67 678 51.67 H 900 Q 950 51.67 950 101.67 V 258.33 Q 950 308.33 900 308.33 H 755 Q 715 308.33 715 332 Q 715 370 685 370 H 38 Z");
+   }
+   ```
+
+3. **Implementación de Funcionalidades**: Se añadieron animaciones y efectos interactivos para mejorar la experiencia del usuario.
+
+   ```javascript
+   document.querySelector('.boton').addEventListener('click', function() {
+       alert('¡Gracias por tu interés!');
+   });
+   ```
+
+## Capturas de Pantalla
+
+![image](https://github.com/user-attachments/assets/40e3d63b-1e5a-4ab0-8007-3f27ec4ee24c)
+*En esta parte podemos apreciar el contenido ordenado, contiene la propiedad Clip-path para ajustar los recortes en los bordes de las imagenes y contenidos, ademas de una animacion en el texto y en nav*
+
 ![image](https://github.com/user-attachments/assets/afdb3249-685d-4055-b483-686ea09910ea)
-![image](https://github.com/user-attachments/assets/4c18c81d-ce7b-4774-aafa-cbd53be24069)
-
-Añadimos Animaciones al contenido The Ultimate donde cada div tendra una animacion, incluyendo el titulo:
-
-![image](https://github.com/user-attachments/assets/4001ff8f-e79e-4bb3-a070-85d965575956)
-
-Agregamos un boton para cambiar el idioma a español: 
-
-![image](https://github.com/user-attachments/assets/39c94075-5b4a-484b-9fb3-3003332e6400)
-
-Incluimos un Chatbot: 
-
-![image](https://github.com/user-attachments/assets/a907b95d-8c75-4084-b498-1e5c2573a052)
-
-Aqui tenemos el resultado: 
-
-![image](https://github.com/user-attachments/assets/35b8aa2a-b191-4d13-9ce5-59e6baca09c3)
+*Esta seccion tambien tiene Clip-path, incluimos dos botones con hover para asi darle un efecto de dinamismo a la página*
